@@ -34,6 +34,24 @@ public class calculatorTest {
 
         Assert.assertEquals(0, calculator.minus(2,2));
     }
+    @Test
+    public void minElement() {
+        int tab[]={
+                2,4,6,7
+        };
+        int a=calculator.minElement(tab);
+        Assert.assertEquals(2,a);
+
+    }
+    @Test
+    public void maxElement(){
+        int tab[]={
+                2,4,7,8
+        };
+        int a =calculator.maxElement(tab);
+        Assert.assertEquals(8,a);
+
+    }
 
     @Test
     //La methode de test de la multiplication
