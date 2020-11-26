@@ -82,6 +82,6 @@ public class calculatorTest {
                 2,4,6,7
         };
         int a=calculator.maxElement(tab);
-        Assert.assertEquals(7,a);
+        Assert.assertEquals(6,a);
 
 }}
